@@ -39,7 +39,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="device,beagle_x15,pdk" name="device/ti/beagle-x15" path="device/ti/beagle_x15" revision="f0fb65a243dd966f018719d2627ad23e029ffd75" upstream="refs/tags/android-13.0.0_r74"/>
   <project name="android_RKDocs_android" path="RKDocs/android" remote="github" revision="e91c6cad9f6547f802b087d59a7fe164aaa08fcb"/>
   <project name="android_RKDocs_common" path="RKDocs/common" remote="github" revision="7253b92885ea23ea675cd569686a3190a243e05e"/>
-  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="github" revision="12548cfe7b16d87fd0e2d9bd96609c817d600f25"/>
+  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="github" revision="95e8beb417513091c0485a6c42eabad814ac1422"/>
   <project name="android_external_wifi_driver" path="external/wifi_driver" remote="github" revision="07a3446848658e8974405fbeb89092b91c5b4255"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="vts,pdk" name="kernel/configs" revision="c590ab063f72cac8214aba7724ad2abe74aa9dd3" upstream="refs/tags/android-13.0.0_r74"/>
   <project clone-depth="1" dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2fbe93eaf61ae4500c6a85e0d12de52a98c2b42f" upstream="refs/tags/android-13.0.0_r74"/>
@@ -1048,7 +1048,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="e443e0119000f1087d774c6b641d34d89d1eaee1" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/chre" path="system/chre" revision="8d49eec5812e5f19a19add1d70a0c959c8947e3d" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="c6d10c85dbf24607f970b6471370be20ecef3249" upstream="refs/tags/android-13.0.0_r74"/>
-  <project name="android_system_core" path="system/core" remote="github" revision="09dede774fab3497f1a97ed42ebab05c0a86ae50"/>
+  <project name="android_system_core" path="system/core" remote="github" revision="0a1813d0b079abbbd0e44bdf68c34b647e9b15fa"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/dmesgd" path="system/dmesgd" revision="45b6106898f6bca88d66639354b536d770d1c53c" upstream="refs/tags/android-13.0.0_r74"/>
   <project name="android_system_extras" path="system/extras" remote="github" revision="967c1ef58f0993f1c766a17afa3eed13153f9fe3"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="a7af87e5bf47a1b3ae2945c09f466d476d89a229" upstream="refs/tags/android-13.0.0_r74"/>
@@ -1137,7 +1137,7 @@
   <project clone-depth="1" dest-branch="refs/tags/android-13.0.0_r74" groups="pdk,tradefed" name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" revision="62b36960f05e94ebf705e0516adc9e47684c212a" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="tools,pdk" name="platform/tools/treble" path="tools/treble" revision="d74b74010472ba957f4125b676a41c23ca91e549" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="9ff3c1fd3ea48b7c148fc1f6e2456dbc5596ca8d" upstream="refs/tags/android-13.0.0_r74"/>
-  <project name="android_device_namtso_rk3588" path="device/namtso/rk3588" remote="github" revision="58a2f1ca30699a5dfad2ccda384d8a24c9e6fa37"/>
+  <project name="android_device_namtso_rk3588" path="device/namtso/rk3588" remote="github" revision="5de44071586ee952108794831c3e53525ac5f2e7"/>
   <project name="android_device_namtso_common" path="device/namtso/common" remote="github" revision="91dcec2866a49b31d9d96ca5c65114f7bfb81e49">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
@@ -1183,7 +1183,7 @@
   <project name="android_hardware_rockchip_usb" path="hardware/rockchip/usb" remote="github" revision="753d08f3b77fa728ebcb4125b4b7136c301650d7"/>
   <project name="android_hardware_rockchip_vibrator_aidl" path="hardware/rockchip/vibrator_aidl" remote="github" revision="34127118af39be8ea30764de15cbc255891220ab"/>
   <project name="android_hardware_rockchip_hdcp2" path="hardware/rockchip/hdcp2" remote="github" revision="e7c8eba3af309d3d8d493e769519b47c5bd44396"/>
-  <project name="linux" path="kernel-5.10" remote="github" revision="ad9907d0975626f9dc9fba752ce753a942a3e0c2"/>
+  <project name="linux" path="kernel-5.10" remote="github" revision="a3dfe1aa6b816d65b3bac083de264672248a5984"/>
   <project name="android_hardware_rockchip_libiep" path="hardware/rockchip/libiep" remote="github" revision="12819069722a6bd2e9cacdff5a84344dd35c8ced"/>
   <project name="android_hardware_rockchip_libpq" path="hardware/rockchip/libpq" remote="github" revision="5d2253ffb77c364d1bf8014666ef6277c1d8d077"/>
   <project name="android_hardware_rockchip_librkcrypto" path="hardware/rockchip/librkcrypto" remote="github" revision="254df1768a2258bad844b575773e27576e5e0e1d"/>
@@ -1195,7 +1195,7 @@
   <project name="android_bootable_recovery_pcba_core" path="bootable/recovery/pcba_core" remote="github" revision="8a6ea69f2dc6ae9a82e25ff4483113c3f65072a8"/>
   <project name="android_external_rk_tee_user" path="external/rk_tee_user" remote="github" revision="aec239c212a2cfdd663ac594b2713f9fb8df4bc0"/>
   <project name="android_vendor_widevine" path="vendor/widevine" remote="github" revision="7b85318c11a75b3b8ced02ad3085849fe1681395"/>
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="3d6a5c52830bfcf8335e385d3a704d3af3dc5050"/>
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="6fd936033d012dbf70d70eea7cb3081ac039bac1"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="github" revision="3978bdf1e0967c122c58c319be662e80d83cdadc"/>
   <project name="android_vendor_rockchip_hardware_interfaces_codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="github" revision="fa5cb4bce6eba40312d40c264980f8ea70d209ff"/>
   <project name="android_vendor_rockchip_hardware_interfaces_neuralnetworks" path="vendor/rockchip/hardware/interfaces/neuralnetworks" remote="github" revision="2583f3263c0c38469f0f7cf9faf50985710bd638"/>
@@ -1211,7 +1211,7 @@
   <project name="android_hardware_rockchip_rknn-toolkit2" path="hardware/rockchip/rknn-toolkit2" remote="github" revision="b24091ed48a02d773f9be025589212904c324597"/>
   <project name="android_hardware_rockchip_rknpu2" path="hardware/rockchip/rknpu2" remote="github" revision="6bfadbfa9e2dda214ed5fda02369f06740adf8e5"/>
   <project name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d"/>
-  <project name="u-boot" path="u-boot" remote="github" revision="af77a3dbd9f11643b4524632513b952d3667949d"/>
+  <project name="u-boot" path="u-boot" remote="github" revision="a587be1302f29cd64a845e876cb76dd7d82ed056"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" name="toolchain/benchmark" revision="804d5a9aa72d6a52361f1a28ca7cf2488a8fdd3f" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="toolchain/pgo-profiles" revision="f94a8791312e6f9e45958f7eb98353f4bbd415da" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="367afcd07f134693a3446ef37a8f2abd42975f6e" upstream="refs/tags/android-13.0.0_r74"/>
