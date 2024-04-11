@@ -1138,7 +1138,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="tools,pdk" name="platform/tools/treble" path="tools/treble" revision="d74b74010472ba957f4125b676a41c23ca91e549" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="9ff3c1fd3ea48b7c148fc1f6e2456dbc5596ca8d" upstream="refs/tags/android-13.0.0_r74"/>
   <project name="android_device_namtso_rk3588" path="device/namtso/rk3588" remote="github" revision="5de44071586ee952108794831c3e53525ac5f2e7"/>
-  <project name="android_device_namtso_common" path="device/namtso/common" remote="github" revision="91dcec2866a49b31d9d96ca5c65114f7bfb81e49">
+  <project name="android_device_namtso_common" path="device/namtso/common" remote="github" revision="54966dbf20ab29ddba2094aab26341a2ddc18d80">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
