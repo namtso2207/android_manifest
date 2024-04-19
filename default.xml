@@ -1211,7 +1211,7 @@
   <project name="android_hardware_rockchip_rknn-toolkit2" path="hardware/rockchip/rknn-toolkit2" remote="github" revision="b24091ed48a02d773f9be025589212904c324597"/>
   <project name="android_hardware_rockchip_rknpu2" path="hardware/rockchip/rknpu2" remote="github" revision="6bfadbfa9e2dda214ed5fda02369f06740adf8e5"/>
   <project name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d"/>
-  <project name="u-boot" path="u-boot" remote="github" revision="a587be1302f29cd64a845e876cb76dd7d82ed056"/>
+  <project name="u-boot" path="u-boot" remote="github" revision="62feecd341fcafa532e9e2b0bc68cf83536285b9"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" name="toolchain/benchmark" revision="804d5a9aa72d6a52361f1a28ca7cf2488a8fdd3f" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="toolchain/pgo-profiles" revision="f94a8791312e6f9e45958f7eb98353f4bbd415da" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="367afcd07f134693a3446ef37a8f2abd42975f6e" upstream="refs/tags/android-13.0.0_r74"/>
