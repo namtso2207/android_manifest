@@ -1195,9 +1195,9 @@
   <project name="android_bootable_recovery_pcba_core" path="bootable/recovery/pcba_core" remote="github" revision="8a6ea69f2dc6ae9a82e25ff4483113c3f65072a8"/>
   <project name="android_external_rk_tee_user" path="external/rk_tee_user" remote="github" revision="aec239c212a2cfdd663ac594b2713f9fb8df4bc0"/>
   <project name="android_vendor_widevine" path="vendor/widevine" remote="github" revision="7b85318c11a75b3b8ced02ad3085849fe1681395"/>
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="352ed3f58a7eef0548881bda82113af02000e411"/>
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="1e630085bbd5d06d1a2d84d1648b705087f9497f"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="github" revision="3978bdf1e0967c122c58c319be662e80d83cdadc"/>
-  <project name="android_vendor_rockchip_hardware_interfaces_codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="github" revision="fa5cb4bce6eba40312d40c264980f8ea70d209ff"/>
+  <project name="android_vendor_rockchip_hardware_interfaces_codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="github" revision="e7df0c9b63fb2b2ae10669c5c3f1dddf55161e8f"/>
   <project name="android_vendor_rockchip_hardware_interfaces_neuralnetworks" path="vendor/rockchip/hardware/interfaces/neuralnetworks" remote="github" revision="2583f3263c0c38469f0f7cf9faf50985710bd638"/>
   <project name="android_vendor_rockchip_hardware_interfaces_rksoundsetting" path="vendor/rockchip/hardware/interfaces/rksoundsetting" remote="github" revision="b5b567d9d757091880d5036e32fc3be8f6c47ff8"/>
   <project name="android_vendor_rockchip_hardware_interfaces_rockit" path="vendor/rockchip/hardware/interfaces/rockit" remote="github" revision="2a4c47d026fd77c8e09aacee50903487dcf25206"/>
